@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Diseño sitios web tarea 3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><img src="images/unad.png" width="120" height="100"></a>
+
+					<nav id="nav">
+						
+					
+						<a href="index.html">INICIO</a>
+						<a href="pages/lecturas.html">Entorno de lecturas</a>
+						<a href="pages/multimedia.html">Recursos multimedia</a>
+						<a href="pages/actores.html">Acerca de los autores</a>
+						<a href="pages/contactenos.html">Contactenos</a>
+						<a href="https://twitter.com/UniversidadUNAD"><span class="fa fa-twitter"> Twitter</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>Ovi Diseño de sitios web </span></h1>
+					<ul class="actions">
+						<li><a href="#" class="button alt">Bienvenidos</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header>
+						<h2>Objetivo General</h2>
+					</header>
+					<p>Formar a los estudiantes teórico-practico, sobre el curso de diseño de sitio web, donde puedan utilizar de forma correcta todo sobre lenguaje de programación HTML5, CSS3 y así que ellos puedan aplicar estos conocimientos en la construcción de un sitio web accesible y de buena calidad.</p>
+
+					<header>
+						<h2>Objetivos especificos</h2>
+					</header>
+					<ul>
+						<li>Brindarles a los estudiantes todos los documentos necesarios para utilice de forma correcta los lenguajes de programación HTML5 y CSS3 para realizar sitio web.</li>
+					<li>>Dar información necesaria y enseñar a los estudiantes a usar el sistema de versiones, Git y GitHub para que lo puedan operar y administrar de forma correcta</li>
+					<li>Dar conocimientos apropiados para que los estudiantes puedan desarrollar sitios web, que cumplan con la necesidad y se ajusten a lo que el usuario necesita. </li>
+					<ul class="actions">
+						<br>
+						
+					</ul>
+
+					<header>
+						<h2>Descripción del contenido</h2>
+						<p> EL O.V.I. posee material de lectura y material multimedial de uso libre relacionados con el aprendizaje de HTML5</p>
+					</header>
+				</div>
+
+
+
+
+			</section>
+
+		<!-- Two --><CENTER><h3>ELEMENTOS SEMANTICOS</h3></CENTER>
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3>ARTICLE</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/elementos_semantcos.PNG" alt="" />
+							</div>
+							<p>El elemento ARTICLE se utiliza para definir un elemento independiente de la página que puede distribuirse por sí mismo, como un elemento de noticias, una publicación en un blog o un comentario. Tales elementos son sindicados normalmente usando feeds RSS</p>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3>SECTION</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/ELE.PNG" alt="" />
+							</div>
+							<p>Este elemento representa una sección de un documento o aplicación, como un capítulo o una sección de un artículo o tutorial. Por ejemplo, la sección que usted está leyendo ahora puede estar rodeada por un elemento section en HTML5. Los elementos section normalmente tienen un encabezado, aunque no es estrictamente necesario. El encabezado de la sección que usted está leyendo ahora, por ejemplo, contiene el texto "Elementos semánticos"</p>
+						
+						</div>
+					
+
+					</article>
+
+
+				</div>
+			</section>
+			<!-- INICIO codigo contador -->
+			><CENTER><h3><SCRIPT LANGUAGE="JavaScript">
+var caution = false
+function setCookie(name, value, expires, path, domain, secure) {
+        var curCookie = name + "=" + escape(value) +
+                ((expires) ? "; expires=" + expires.toGMTString() : "") +
+                ((path) ? "; path=" + path : "") +
+                ((domain) ? "; domain=" + domain : "") +
+                ((secure) ? "; secure" : "")
+        if (!caution || (name + "=" + escape(value)).length <= 4000)
+                document.cookie = curCookie
+        else
+                if (confirm("La cookie no puede pesar mas de 4kb!"))
+                        document.cookie = curCookie
+}
+function getCookie(name) {
+        var prefix = name + "="
+        var cookieStartIndex = document.cookie.indexOf(prefix)
+        if (cookieStartIndex == -1)
+                return null
+        var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex + prefix.length)
+        if (cookieEndIndex == -1)
+                cookieEndIndex = document.cookie.length
+        return unescape(document.cookie.substring(cookieStartIndex + prefix.length, cookieEndIndex))
+}
+function deleteCookie(name, path, domain) {
+        if (getCookie(name)) {
+                document.cookie = name + "=" +
+                ((path) ? "; path=" + path : "") +
+                ((domain) ? "; domain=" + domain : "") +
+                "; expires=Thu, 01-Jan-70 00:00:01 GMT"
+        }
+}
+function fixDate(date) {
+        var base = new Date(0)
+        var skew = base.getTime()
+        if (skew > 0)
+                date.setTime(date.getTime() - skew)
+}
+var now = new Date()
+fixDate(now)
+now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
+var visits = getCookie("counter")
+if (!visits)
+        visits = 1
+else
+        visits = parseInt(visits) + 1
+setCookie("counter", visits, now)
+document.write("Esta es tu visita numero: " + visits)
+</script>
+</h3></CENTER>
+
+
+		<!-- Three -->
+		
+
+		
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
